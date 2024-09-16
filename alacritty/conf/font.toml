@@ -1,0 +1,6 @@
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Light" }
+italic = { family = "JetBrainsMono Nerd Font", style = "Light Italic" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Medium" }
+bold_italic = { family = "JetBrainsMono Nerd Font", style = "Medium Italic" }
+size = 19

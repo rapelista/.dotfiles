@@ -1,0 +1,118 @@
+{
+  /*
+   * Font Style
+   */
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontSize": 17.845,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.lineHeight": 2,
+  /*
+   * Theme
+   */
+  "workbench.colorTheme": "GitHub Dark Default",
+
+  /*
+   * Editor
+   */
+  "editor.linkedEditing": true,
+  "editor.foldingStrategy": "indentation",
+  "workbench.activityBar.location": "top",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "workbench.panel.opensMaximized": "always",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.statusBar.visible": false,
+  "workbench.editor.showTabs": "none",
+  "workbench.startupEditor": "none",
+  "breadcrumbs.enabled": false,
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorBlinking": "expand",
+  "editor.lineHeight": 2.25,
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.glyphMargin": false,
+  "window.title": "🚀",
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": ["-l"],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": ["-l"]
+    },
+    "fish": {
+      "path": "fish",
+      "args": ["-l"]
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    },
+    "tmux-shell": {
+      "path": "tmux",
+      "icon": "terminal-tmux",
+      "args": ["new", "-A", "-s", "0"]
+    }
+  },
+  "terminal.integrated.defaultProfile.osx": "tmux-shell",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
+
+  /*
+   * Color
+   */
+  "workbench.colorCustomizations": {
+    "gitDecoration.untrackedResourceForeground": "#cacb75",
+    "gitDecoration.modifiedResourceForeground": "#66b366",
+    "editorBracketHighlight.foreground1": "#FFD700",
+    "editorBracketHighlight.foreground2": "#DA70D6",
+    "editorBracketHighlight.foreground3": "#179fff",
+    "focusBorder": "#225eb1"
+  },
+  "window.customTitleBarVisibility": "never",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+
+  /**
+   * Formatting
+   */
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript][typescript][typescriptreact][javascriptreact]": {
+    "editor.maxTokenizationLineLength": 2500,
+    "prettier.trailingComma": "es5",
+    "prettier.singleQuote": true
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "extensions.ignoreRecommendations": true,
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+
+  "files.associations": {
+    "*.css": "css",
+    "css": "css"
+  },
+
+  "css.lint.unknownAtRules": "ignore"
+}
